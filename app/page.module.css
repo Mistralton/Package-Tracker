@@ -1,0 +1,119 @@
+.wrapper {
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  position: relative;
+  width: 100%;
+}
+
+.input {
+  height: 3rem;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  border-radius: 0.25rem;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.input::placeholder {
+  color: black;
+}
+
+.input {
+  color: black;
+}
+
+.submit {
+  position: absolute;
+  height: 2.75rem;
+  top: 42.5%;
+  background-color: #0070f3;
+  right: 0.25%;
+  padding: 0.5rem;
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+.landing {
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing h2 {
+  margin: 0 0 1rem 0;
+  max-width: 450px;
+  font-size: 1.5rem;
+}
+
+.landing p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.carrier {
+  display: grid;
+  width: 100%;
+  place-items: center;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.carrier img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  max-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title span {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.response {
+  text-align: center;
+}
