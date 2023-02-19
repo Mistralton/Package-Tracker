@@ -1,0 +1,30 @@
+{
+  "name": "pack-track",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^2.0.0",
+    "@next/font": "13.1.6",
+    "@types/node": "18.14.0",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "cohere-ai": "^5.0.2",
+    "firebase": "^9.17.1",
+    "firebase-admin": "^11.5.0",
+    "firebase-functions": "^4.2.0",
+    "firebase-tools": "^11.23.1",
+    "mapbox-gl": "^2.12.1",
+    "next": "13.1.6",
+    "node-html-parser": "^6.1.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-map-gl": "^7.0.21",
+    "typescript": "4.9.5"
+  }
+}
