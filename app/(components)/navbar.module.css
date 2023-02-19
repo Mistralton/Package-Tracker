@@ -1,0 +1,22 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.navleft {
+    display: flex;
+    gap: 16px;
+    justify-content: space-around;
+}
+
+.navright {
+    display: flex;
+    gap: 16px;
+    justify-content: space-around;
+}
+
+.Link:hover {
+    color: lightblue;
+    text-decoration-line: underline;
+}
