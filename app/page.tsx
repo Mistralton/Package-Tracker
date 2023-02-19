@@ -20,7 +20,7 @@ export default function Home() {
 
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const dogs = await fetch(`api/usps?label=${label}&${user ? `user=${user}` : ""}`);
+    const dogs = await fetch(`api/usps?label=${label}&${user ? `user=${user.name}` : ""}`);
     const json = await dogs.json();
     setResult(json);
   }
