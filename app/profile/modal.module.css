@@ -1,0 +1,32 @@
+.modal {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: darkgray;
+  border-radius: 0.5rem;
+  width: 24rem;
+  height: 13rem;
+}
+
+.modal > h2 {
+  margin-bottom: 1rem;
+}
+
+.modal > div {
+  margin-bottom: 1rem;
+}
+
+.modal > input {
+  height: 3rem;
+  width: 90%;
+  margin-bottom: 1rem;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
