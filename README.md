@@ -8,7 +8,7 @@
 <a href="https://packagetracker.tech/">View your packages here</a>
 
   <div>
-   <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"> <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"> <img src="https://img.shields.io/badge/Firebase-ff9900?style=for-the-badge&logo=firebase&logoColor=white"> <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"> <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white">
+   <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"> <img src="https://img.shields.io/badge/Firebase-ff9900?style=for-the-badge&logo=firebase&logoColor=white"> <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"> <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white">
   </div>
 
   <img src="public/image.png">
@@ -36,7 +36,6 @@ To run the project locally, follow these steps:
 ## 💻 Technologies
 
 - Next.js: a JavaScript framework for building server-rendered or statically-exported applications using React.
-- Tailwind: a CSS utility class library to quicken and bootstrap development of appealing and accessible websites.
 - Firebase: A backend as a service, providing features like a document database and cloud functions.
 - Mapbox: A modern solution for web mapping that provides a powerful Javascript SDK and API.
 - Auth0: An authentication software as a service that provides us with a powerful sdk to add and develop authentication.
