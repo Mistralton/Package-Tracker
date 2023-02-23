@@ -1,44 +1,42 @@
-# Package Tracker
+<div align="center">
+  <div>
+  <h1>Seamstress</h1>
+  A web-based application that allows users to track their packages from different shipping companies in one place, using Next.js, Tailwind, Auth0, and Firebase.
+  </div>
+<br />
 
-![home page](public/image.png)
+<a href="https://packagetracker.tech/">View your packages here</a>
 
-[Click here](https://pack-track.vercel.app/) to view the deployment.
+  <div>
+   <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"> <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"> <img src="https://img.shields.io/badge/Firebase-ff9900?style=for-the-badge&logo=firebase&logoColor=white"> <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"> <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white">
+  </div>
 
-Package Tracker is a web-based application that allows users to track their packages from different shipping companies in one place.
+  <img src="public/image.png">
+</div>
 
-## Inspiration
+It can get really annoying juggling so many different shipping labels from the many provider choices that we have. In order to alleviate this, we decided to work on this project, to act as a central place to congregate and track all your packages in one simple place!
 
-The inspiration for Package Tracker came from the frustration of having to navigate through multiple shipping company websites to track packages. We wanted to create a centralized platform for package tracking that is both user-friendly and efficient.
+We made this using Next.js as our frontend layer, and used Firebase for their Firestore database to store the labels. We used Auth0 for authentication. To ensure that labels are kept up to date, we used a Cloud Scheduler Firebase cloud function run on a cronjob.
 
-## What it does
+<div align="center">
+<img src="public/result.png">
+</div>
 
-Users can enter their package tracking number into the application and view real-time updates on the status of their packages, including delivery times, locations, and tracking history. The app also provides a mapping feature to show where the package is at any given moment. Additionally, users can rate shipping companies and provide feedback on their experiences. The application utilizes a cloud-based Firebase function that runs every hour to update package status.
+## 🚀 Getting Started
+Anybody can input their shipping labels at the home page and get an update on the current state and location of their packages. To track these, sign up and then receive a dashboard of all your labels and browse through a history of their locations and statuses. Rate and view shipping companies in terms of performance and satisfaction.
 
-## How we built it
+To run the project locally, follow these steps:
 
-We scraped the shipping tracking page for USPS and integrated it with Next.js for rendering the data. Firebase was used to store the data, and Mapbox was used to create the mapping feature. Authentication was added using Auth0.
+1. Clone the repository to your local machine.
+2. Navigate to the root directory of the project.
+3. Run `npm install` to install the necessary dependencies.
+4. Run `npm run dev` to start the development server.
+5. Visit `http://localhost:3000` in your web browser to view the application.
 
-## Challenges we ran into
+## 💻 Technologies
 
-One of the main challenges we faced was finding an idea that was both feasible within the time constraints of the hackathon and applicable to everyday consumers. We also encountered difficulties integrating with FedEx and UPS due to the nature of their APIs, and the project currently only supports USPS.
-
-## Accomplishments that we're proud of
-
-We are proud of the fact that we were able to create a functional and user-friendly application using frameworks and tools that we were not previously experienced with.
-What we learned
-Through the development of Package Tracker, we gained experience in using authentication services such as Auth0 and implementing cloud-based functions and schedulers with Firebase.
-
-## What's next for Package Tracker
-
-Moving forward, we hope to expand the application to support more shipping companies and add features such as notifications for package updates.
-
-## Getting Started
-
-To use Package Tracker, simply visit the website and enter your package tracking number (USPS).
-
-## Technologies Used
-
-Next.js
-Firebase
-Mapbox
-Auth0
+- Next.js: a JavaScript framework for building server-rendered or statically-exported applications using React.
+- Tailwind: a CSS utility class library to quicken and bootstrap development of appealing and accessible websites.
+- Firebase: A backend as a service, providing features like a document database and cloud functions.
+- Mapbox: A modern solution for web mapping that provides a powerful Javascript SDK and API.
+- Auth0: An authentication software as a service that provides us with a powerful sdk to add and develop authentication.
