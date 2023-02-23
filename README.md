@@ -1,7 +1,7 @@
 <div align="center">
   <div>
   <h1>Package Tracker</h1>
-  A web-based application that allows users to track their packages from different shipping companies in one place, using Next.js, Tailwind, Auth0, and Firebase.
+  A web-based application that allows users to track their packages from different shipping companies in one place, using Next.js, Auth0, and Firebase.
   </div>
 <br />
 
