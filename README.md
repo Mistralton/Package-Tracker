@@ -14,7 +14,7 @@
   <img src="public/image.png">
 </div>
 
-Recently, a group mate of ours built a PC and found that it can get really annoying juggling so many different shipping labels from the many provider choices that he had had. We decided to develop a project to alleviate this and eventually settle on Package Tracker to act as a central place to congregate and track all your packages in one simple place!
+Recently, a group mate of ours built a PC and found that it can get really annoying juggling so many different shipping labels from the many provider choices that he had had. We decided to develop a project to alleviate this and eventually settled on Package Tracker to act as a central place to congregate and track all your packages in one simple place!
 
 We made this using Next.js as our frontend layer, and used Firebase for their Firestore database to store the labels. We used Auth0 for authentication. To ensure that labels are kept up to date, we used a Cloud Scheduler Firebase cloud function run on a cronjob.
 
